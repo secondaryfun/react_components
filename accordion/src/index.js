@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import createClass from 'create-react-class';
 import './accordion.css';
 import sparkNotes from './data/spark_notes.json'
+import Parse from 'html-react-parser'
 
 
 const App = createClass({
@@ -113,7 +114,9 @@ const App = createClass({
             <div className={i.open 
               ? "content-text content-text-open" 
               : "content-text"}
-            > {i.content}
+            > 
+            {/* {console.log(i.content)} */}
+            {contentList(i.content)}
             </div>
           </div>
         </div>
@@ -126,6 +129,14 @@ const App = createClass({
       );
      }
   });
+
+  function contentList(listItems) {
+    return (
+      <ul>{listItems.map(i =>(
+        Parse(i)
+      ))}</ul>
+    )
+  }
   
   ReactDOM.render(
     <App />, 
