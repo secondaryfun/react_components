@@ -160,7 +160,10 @@ const Accordion = createClass({
 		return (
 			<div className="accordion">
 				{chapterMenu}
-				{sections}
+				<div className="accordion-section-wrapper">
+					{sections}
+
+				</div>
 			</div>
 		);
 	}
