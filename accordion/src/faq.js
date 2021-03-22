@@ -22,20 +22,23 @@ import Parse from 'html-react-parser'
 export const FaqAccordion = createClass({
 
 	componentWillMount() {
-		let accordion = []
+		let faqAccordion = []
+		let errataAccordion = []
 		let tags = ['All']
-		let severities = ['All']
+		let components = ['All']
+		let types = ["Errata","FAQ"]
 		let errata = this.props.data.Errata
 		let faq = this.props.data.FAQ
 		faq.forEach((i) => {
 			if(i.Description) {
 				tags.push(!i.Tag ? "" : i.Tag)
-				accordion.push({
+				faqAccordion.push({
 					type: 'faq',
 					title: !i.Description ? "" : i.Description.split('\n')[0].substring(3),
 					content: !i.Description ? "" : i.Description,
 					tag: !i.Tag ? "" : i.Tag,
 					spoiler: !i.Spoiler ? null : i.Spoiler,
+					severity: null,
 					open: false
 					
 				});
@@ -43,8 +46,8 @@ export const FaqAccordion = createClass({
 		})
 		errata.forEach((i) => {
 			if(i.Description) {
-				severities.push(!i.Severity ? "" : i.Severity)
-				accordion.push({
+				components.push(!i.Component ? "" : i.Component)
+				errataAccordion.push({
 					type: 'errata',
 					title: !i.Description ? "" : i.Description.slice(0,25),
 					content: !i.Description ? "" : i.Description,
@@ -59,41 +62,74 @@ export const FaqAccordion = createClass({
 		
 		const tagSet = new Set(tags)
 		tags = [...tagSet]
-		const sevSet = new Set(severities)
-		severities = [...sevSet]
+		const sevSet = new Set(components)
+		components = [...sevSet]
 
 
 		this.setState({
-			accordionItems: accordion,
-			displayTag: 'All',
+			faqAccordion: faqAccordion,
+			errataAccordion: errataAccordion,
+			activeAccordion: errataAccordion,
+			activeHeaders: components,
+			types: types,
+			displayMenu: 'All',
 			tags: tags,
-			displaySev: 'All',
-			sevs: severities,
-			activeMenu: 'errata',
+			components: components,
+			activeMenu: types[0],
 		});
 	},
 
 	click(i) {
-		const newAccordion = this.state.accordionItems.slice();
+		const newAccordion = this.state.activeAccordion.slice();
 		const index = newAccordion.indexOf(i)
 
 		newAccordion[index].open = !newAccordion[index].open;
-		this.setState({ accordionItems: newAccordion });
+		this.setState({ activeAccordion: newAccordion });
+	},
+
+	handleClickType(i) {
+		let menu = i === 'Errata' ? this.state.errataAccordion : this.state.faqAccordion
+		let headers = i === 'Errata' ? this.state.components : this.state.tags
+		this.setState({activeMenu: i, activeAccordion: menu, displayMenu: "All", activeHeaders: headers })
 	},
 	
 	handleChapterClick(i) {
-		this.setState({ displayTag: i });
+		this.setState({ displayMenu: i});
+	},
+
+	handleFilterChange(e) {
+		console.log(e.target)
+		this.setState({displayMenu: e.target.value})
 	},
 
 	render() {
 		// Chapter Builder
-		const chapterMenu = (this.state.activeMenu === 'faq' ? (
+		const typeMenu = (
+			<div className="accordion-chapter-menu">
+				{this.state.types.map(i => (
+					<div 
+					className={`
+					accordion-chapter-menu-btn 
+					${this.state.activeMenu === i ? 
+						"accordion-chapter-menu-btn--active" : "" }
+						`}
+					onClick={this.handleClickType.bind(null, i)}
+					
+					>
+						<span>
+							{i}
+						</span>
+					</div>
+				))}
+			</div>
+		)
+		const chapterMenu = (this.state.activeMenu === 'FAQ' ? (
 					<div className="accordion-chapter-menu">
 						{this.state.tags.map(i => (
 							<div 
 							className={`
 							accordion-chapter-menu-btn 
-							${this.state.displayTag === i ? 
+							${this.state.displayMenu === i ? 
 								"accordion-chapter-menu-btn--active" : "" }
 								`}
 							onClick={this.handleChapterClick.bind(null, i)}
@@ -107,11 +143,11 @@ export const FaqAccordion = createClass({
 					</div>
 				) : (
 					<div className="accordion-chapter-menu">
-						{this.state.sevs.map(i => (
+						{this.state.components.map(i => (
 							<div 
 							className={`
 							accordion-chapter-menu-btn 
-							${this.state.displayTag === i ? 
+							${this.state.displayMenu === i ? 
 								"accordion-chapter-menu-btn--active" : "" }
 								`}
 							onClick={this.handleChapterClick.bind(null, i)}
@@ -126,13 +162,15 @@ export const FaqAccordion = createClass({
 				)
 			
 		)
+		const filterList = filter(this.state.activeHeaders, this.state.displayMenu, this.handleFilterChange)
 
 
 		// Accordion Builder
-		const sections = this.state.accordionItems.map((i) => {
-			if(this.state.activeMenu === "faq") {
-				return i.tag === this.state.displayTag || this.state.displayTag === 'All' ? (
-					<div key={this.state.accordionItems.indexOf(i)}>
+		let sections
+		if(this.state.activeMenu === "FAQ") {
+		sections = this.state.activeAccordion.map((i) => {
+				return i.tag === this.state.displayMenu || this.state.displayMenu === 'All' ? (
+					<div key={this.state.activeAccordion.indexOf(i)}>
 						<div
 							className="accordion-title"
 							onClick={this.click.bind(null, i)}
@@ -162,9 +200,11 @@ export const FaqAccordion = createClass({
 						</div>
 					</div>
 				) : ""
-			} else {
-				return i.severity === this.state.displaySev || this.state.displaySev === 'All' ? (
-					<div key={this.state.accordionItems.indexOf(i)}>
+			}) 
+		} else {
+			sections = this.state.activeAccordion.map((i) => {
+				return i.component === this.state.displayMenu || this.state.displayMenu === 'All' ? (
+					<div key={this.state.activeAccordion.indexOf(i)}>
 						<div
 							className="accordion-title"
 							onClick={this.click.bind(null, i)}
@@ -194,11 +234,13 @@ export const FaqAccordion = createClass({
 						</div>
 					</div>
 				) : ""
-			} 
-		});
+			} )
+		};
 
 		return (
 			<div className="accordion">
+				{typeMenu}
+				{filterList}
 				{chapterMenu}
 				<div className="accordion-section-wrapper">
 					{sections}
@@ -214,6 +256,26 @@ function contentList(listItems) {
 		<ul>{listItems.map(i => (
 			Parse(i)
 		))}</ul>
+	)
+}
+
+function filter(list, def, callback) {
+
+	// {list, def, callback} = {...props.data}
+	return (
+		<div>
+				<select defaultValue={def} 
+				onChange={callback} 
+				>
+					{
+						list.map(i => (<option value={i}>{i}</option>))
+					}
+					{/* <option value="Orange">Orange</option>
+					<option value="Radish">Radish</option>
+					<option value="Cherry">Cherry</option> */}
+				</select>
+				<p>This is a filter.</p>
+			</div> 
 	)
 }
 

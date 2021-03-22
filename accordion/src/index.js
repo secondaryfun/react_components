@@ -19,7 +19,7 @@ const App = createClass({
 			<div>
 				Test this out.
 				<FaqAccordion data={faqData} />
-				{/* <Accordion data={sparkNotes} /> */}
+				<Accordion data={sparkNotes} />
 			</div>
 		);
 	}
@@ -35,7 +35,7 @@ const Accordion = createClass({
 				title: i.title,
 				content: i.content,
 				chapter: i.chapter,
-				open: false
+				open: true
 			});
 		});
 
