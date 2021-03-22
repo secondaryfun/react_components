@@ -1,0 +1,7 @@
+## How examctly does Reach interact with Elevation?
+
+Examples
+1. Remi has Reach 2 and is on Elevation 2. The Animate does not have Reach and is below her on Elevation 1. Since the difference is 1 or less, they are both considered Adjacent. Additionally, they could both make Melee Attacks against each other.
+2. Since Remi has Reach 2 she can attack up to 2 spaces away so long as the difference in Elevation isn't greater than 1. Since it is not, she can make the attack here. However, neither figure is considered Adjacent.
+3. Remi has Reach 2 and is on Elevation 3. The Animate does not have Reach and is below her on Elevations 1. Since the difference is 2, Remi is glad to have Reach 2, which allows her to make a Melee Attack. Meanwhile, the Animate is in trouble and could not Attack back. This also means that it could not Counter. Additionally, neithern figure could make Break Attacks since neither figure is considered Adjacent to each other and Reach does not expand Remi's Range for Break Attacks. (Provoke 2 would.)  
+4. Even though Remi has Reach 2, she cannot Attack the Animate at one space away. The difference in Elevation is 2 and the Animate is 1 space further away. To make this Melee Attack, Remi would need Reach 3 or use a Ranged Attack or Spell.

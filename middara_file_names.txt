@@ -1,0 +1,149 @@
+01 20_look_a_distraction
+01 21_getting_cocky
+01 22_a_strange_pedestal
+01 23_a_way_out
+01 24_a_dark_passenger
+01 25_The_Arsen_Castle
+01 26_cave_sickle_extermina…on
+01 27_inexperience_in_exter…_a
+01 27_inexperience_in_exter…_b
+01 28_bombs_away_a
+01 28_bombs_away_b
+01 29_loa_problems
+01 2_off_to_a_rough_start
+01 2_wrong_way
+01 30_loa_problems_solved
+01 31_the_everlasting_loa_p…em
+01 32_back_to_the_vaults
+01 33_the_door_is_still_locked
+01 34_marching_forth
+01 35_lead_the_way
+01 36_nightmares_manifest
+01 37_leaving_the_city_of_elenia
+01 3_setting_up_camp
+01 4_check_out_the_loot
+01 5_cozy_fire
+01 6_scramble_away
+01 7_poor_doggie
+01 8_the_second_night
+01 9_step_aside
+
+02 31 Main Quest_The G…ed
+02 32 Main Quest_Make …r It
+02 33 Main Quest_Erupti…os
+02 34 Flavor Text_Rhams…es
+02 35_Main Quest_Remi …ing
+02 36_Main Quest_Strugg…ere
+02 37_Main Quest_Listen…ger
+02 38_Main Quest_Aisling…er
+02 39_Flavor Text_More …ms
+02 40_Main Quest_We're…se
+02 41_Main Quest_Your …cks
+02 42_Main Quest_Aisling…uit
+02 43_Main Quest_The P…ut
+02 44_Flavor Text_Boss F…ing
+02 45_Main Quest_What …er
+02 46_Main Quest_Sicken…all
+02 47_Ending 2_Death of…ess
+02 48_Main Quest_Spend…ld
+02 49_Main Quest_Leavin…wn
+02 50_Main Quest_Safe T…ric
+02 51_Main Quest_Stop Her
+02 52_Main Quest_Good…ce
+02 53_Main Quest_Jophie…nt
+02 54_Main Quest_Gear Up
+02 55_Main Quest_Formu…lan
+02 56_Main Quest_Victor…ing
+02 57_Main Quest_Rham…ice
+02 58_Main Quest_Ready…Go
+02 59_Main Quest_I owe…ter
+
+03 40_Main Quest_Stop
+03 41_Main Quest_Listen…01
+03 42_Main Quest_Seriou…on
+03 43_Main Quest_Comin…an
+03 44_Main Quest_Tell M…th
+03 45_Main Quest_Justice…ns
+03 46_Main Quest_To Th…es
+03 47_Main Quest_Teem…ers
+03 48_Main Quest_How …elp
+03 49_Flavor Text_The M…de
+03 50_Flavor Text_Monst…ere
+03 51_Flavor Text_Throu…ble
+03 52_Main Quest_Murm…or
+03 53_Flavor Text_Boss F…rix
+03 54_Main Quest_Slain …rix
+03 55_Main Quest_A Fam…yal
+03 56_Main Quest_Seal T…Up
+03 57_Side Quest_The Qu…est
+03 58_Flavor Text_Miner …ue
+03 59_Side Quest_We Co…em
+03 60_Side Quest_Cough…irl
+03 61_Side Quest_Miners…ed
+03 62_Side Quest_Miner …ue
+03 63_Main Quest_Unsto…ht
+03 64_Main Quest_Endin…ain
+03 65_Main Quest_Fighti…ast
+03 66_Main Quest_My Duty
+03 67_Main Quest_Gratfu…lies
+03 68_Main Quest_A Cha…on
+
+04 62 MQ_Cracked Facade
+04 63 MQ_We Can Save Her
+04 64 MQ_It's Us or Him
+04 65 MQ_Not a Killer or…ol
+04 66 MQ_From the Sha…ws
+04 67 Ending_Ending 4-D…ller
+04 68 MQ_A Scarred Surv…or
+04 69 MQ_A Promise in D…th
+04 70 MQ_Confused Surv…or
+04 71 MQ_Patterns in th…irt
+04 72 MQ_Gone Still
+04 73 MQ_A Happy Survivor
+04 74 MQ_A Sign of Echo
+04 75 MQ_The Trail to Echo
+04 76 MQ_Guidance
+04 77 MQ_Pressing Through
+04 78 MQ_Overwhelming
+04 79 MQ_A Soul Enslaved
+04 80 MQ_The Stitcher
+04 81 MQ_Reluctant Part…ip
+04 82 MQ_Lost Love
+04 83 MQ_There's No Jus…re
+04 84 MQ_A Horrific Sight
+04 85 MQ_An Old Friend
+04 86 MQ_Unexpected S…ior
+04 87 MQ_An Opportune…Tip
+04 88 MQ_Finding Justice
+04 89 MQ_Under Pressure
+04 90 MQ_The Ferry
+
+05 71 MQ_No Such Ting …ds
+05 72 FT_Trapped Souls
+05 73 MQ_Ending 6_Horr…res
+05 74 MQ_The End Is Near
+05 75 MQ_A Dark Visit
+05 76 MQ_The Black Corner
+05 77 MQ_Then Leave U…th
+05 78 MQ_Cowards
+05 79 MQ_Twice the Souls
+05 80 MQ_He'll Be Fine
+05 81 MQ_Lucid
+05 82 MQ_Losing It
+05 83 MQ_I Made a Promise
+05 84 FT_Daedalus the D…rer
+05 85 MQ_Steel Yourself
+05 86 MQ_Splatter
+05 87 MQ_Lost Soul
+05 88 MQ_Get Off Of Him
+05 89 MQ_My Only Goal
+05 90 MQ_All That Matters
+05 91 FT_Daedalus the P…or
+05 92 MQ_Get Off of Her
+05 93 MQ_Stop Fighting
+05 94 MQ_Shrug
+05 95 MQ_Safe Passage
+05 96 MQ_Spirits
+05 97 MQ_Not the First
+05 98 MQ_Make Him Pay
+05 99 MQ_Promise Me

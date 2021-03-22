@@ -4,62 +4,23 @@ import createClass from 'create-react-class';
 import './accordion.css';
 import sparkNotes from './data/spark_notes_2.json'
 import Parse from 'html-react-parser'
+import faqData from './data/faq.json'
+import {FaqAccordion} from './faq.js'
+
+
 
 
 const App = createClass({
 
 	render() {
-		// let data = [
-		// 	{
-		// 		title: "One",
-		// 		content: `Lorem ipsum dolor sit amet, 
-		//                 consectetur adipiscing elit, 
-		//                 sed do eiusmod tempor incididunt 
-		//                 ut labore et dolore magna aliqua. 
-		//                 Ut enim ad minim veniam, quis 
-		//                 nostrud exercitation ullamco laboris 
-		//                 nisi ut aliquip ex ea commodo consequat. 
-		//                 Duis aute irure dolor in reprehenderit 
-		//                 in voluptate velit esse cillum dolore 
-		//                 eu fugiat nulla pariatur. Excepteur 
-		//                 sint occaecat cupidatat non proident, 
-		//                 sunt in culpa qui officia deserunt 
-		//                 mollit anim id est laborum.`
-		// 	}, {
-		// 		title: "Two",
-		// 		content: `Lorem ipsum dolor sit amet, 
-		//                 consectetur adipiscing elit, 
-		//                 sed do eiusmod tempor incididunt 
-		//                 ut labore et dolore magna aliqua. 
-		//                 Ut enim ad minim veniam, quis 
-		//                 nostrud exercitation ullamco laboris 
-		//                 nisi ut aliquip ex ea commodo consequat. 
-		//                 Duis aute irure dolor in reprehenderit 
-		//                 in voluptate velit esse cillum dolore 
-		//                 eu fugiat nulla pariatur. Excepteur 
-		//                 sint occaecat cupidatat non proident, 
-		//                 sunt in culpa qui officia deserunt 
-		//                 mollit anim id est laborum.`
-		// 	}, {
-		// 		title: "Three",
-		// 		content: `Lorem ipsum dolor sit amet, 
-		//                 consectetur adipiscing elit, 
-		//                 sed do eiusmod tempor incididunt 
-		//                 ut labore et dolore magna aliqua. 
-		//                 Ut enim ad minim veniam, quis 
-		//                 nostrud exercitation ullamco laboris 
-		//                 nisi ut aliquip ex ea commodo consequat. 
-		//                 Duis aute irure dolor in reprehenderit 
-		//                 in voluptate velit esse cillum dolore 
-		//                 eu fugiat nulla pariatur. Excepteur 
-		//                 sint occaecat cupidatat non proident, 
-		//                 sunt in culpa qui officia deserunt 
-		//                 mollit anim id est laborum.`
-		// 	}
-		// ];
+		
 
 		return (
-			<Accordion data={sparkNotes} />
+			<div>
+				Test this out.
+				<FaqAccordion data={faqData} />
+				{/* <Accordion data={sparkNotes} /> */}
+			</div>
 		);
 	}
 });

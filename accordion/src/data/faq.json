@@ -1,0 +1,461 @@
+{
+    "Errata": [
+        {
+            "Description": "Abraxis rewards should be cumulative. Meaning, that if all 4 Adventurers survive, they would gain the rewards for all four tiers. (1 Adventurer, 2 Adventurer, etc.)  ",
+            "Component": "UM1 Adventure Book",
+            "Severity": "Major"
+        },
+        {
+            "Description": "***Paralyze***: There is a discrepancy between the rules listed on the token and in the Rule Book. Regardless, there has been some discussion as to the intent of Paralyze and how it is worded. We've decided to expand upon the rule in the Rule Book to make it clear that Passive Abilities and Status Abilities can still be used. Additionally, Push, Pull, and Command can still be used on a Paralyzed figure so long as the source is from another figure. Paralyze should be worded as followed:\n \n\"Passive: End your Action or Ability. You may not make Actions or use Abilities other than Passive and Status Abilities. You are affected by Push, Pull, and Command. ✘Discard this token at the end of your next turn. Then, Gain Immunity: Paralyze until the end of the Encounter.\"",
+            "Component": "Rule Book / Effect Token",
+            "Severity": "Major"
+        },
+        {
+            "Description": "***Bone Chipper:*** The Combat Dice should scale proportionally with other Katar's. In addition, the Ability to add bonus ATK should be an Exhaust ability. ",
+            "Component": "Item",
+            "Severity": "Major"
+        },
+        {
+            "Description": "Anytime an ability says “End the current Action and all Abilities”  it should say, \"End the current Action and all ***other*** Abilities.\" While usually played correctly, this needs to be updated across all cards, encounters, and rules that use this wording.",
+            "Component": "Nearly every component type has one instance of this wording that must be updated.",
+            "Severity": "Major or a Non-Issue?",
+            "Spoiler": "",
+            "Notes": "In practice, most players understand how these abilities should work despite how they are currently worded. However, it's technically incorrect as written.\n\nPerhaps this is a non-issue as the Rule Book does make it clear how Abilities worded this way are intended to work?"
+        },
+        {
+            "Description": "***Elusive:*** This ability should be worded as followed: \"When making voluntary movement, a figure with Elusive will never provoke Break Attacks from opponents who were adjacent to them at the start of a Move Action or the Ability that gave them Free Movement. If the figure with Elusive is Pushed, Pulled, or otherwise moved by an opponent's Ability, they will still provoke Break Attacks from adjacent figures.\"",
+            "Component": "Rule Book",
+            "Severity": "Major"
+        },
+        {
+            "Description": "***Gigas Grip:*** This ability has historically caused many issues. It's thematically easy to imagine but very hard to clearly write a rule for. For these reasons, we've decided to expand upon Gigas Grip in the same way we did Summoning. Future printings of Gigas Grip will say: \"Passive: You Gain Gigas Grip.\" Then, we will expand upon what the Gigas Grip Tag does for you. This will allow us to fit all the intricacies required by using the Rule Book instead of trying to jam it all onto a single mini card.\n\n***Gigas Grip (Tag):*** Thematically, Gigas Grip allows you to dual wield larger ***Melee*** Weapons. In addition to the normal rules for equipping gear, Adventurer's with this tag may equip 2-handed (***Melee***) or (***Melee/Ranged***) Weapons as if they were 1-handed. If they do, the following rules apply:\n\n* While equipped, 2-Handed Weapons still count as 2-Handed Weapons for the purpose of other abilities that might reference them. \n* These equipped 2-Handed Weapons weapons must still adhere to the normal Range Icon restrictions when equipping Items. (***Example:*** Both can be Melee, one can be Melee and the other Melee/Ranged, or both may have the Melee/Ranged. So, for example, you could equip a 1-handed shield and a 2-handed Melee or Melee/Ranged weapon. Or, you could equip a 1-handed Ranged Weapon and a 2-handed Melee Weapon.)\n* You may still equip 1-Handed Weapons of any type following all the rules associated with equipping weapons normally. (***Example:*** You could equip a 1-Handed Ranged Weapon and a 2-Handed Melee/Ranged Weapon. But it's important to remember that Gigas Grip ***doesn't*** allow you to equip a 2-Handed Ranged weapon as if it was 1-Handed.)\n* While equipped, you gain access to all Abilities printed on both equipped Weapons including Abilities printed on Upgrades equipped on both cards. \n* When Attacking, you must choose which Combat Dice to use. This can be any combination of two dice printed across either of your Equipped Weapons. A Weapon with the BLACK must add the BLACK. If one Equipped Weapon has a different Range or an Ability that might augment the Range of an Attack, (Such as Reach 2 or Range 4), then you must use the lowest Range available to both weapons. (***Example:*** If one Weapon has Reach 2 and the other does not, you may only Attack figures on Adjacent spaces. Alternatively, if one figure has Range 4 and the other has Range 6, you may only make Attacks against figures at Range 4. Lastly, if you have a Reach 2 Weapon and a Melee/Ranged Weapon with Range 4 you could make Melee Attacks against adjacent figures only since the Range on the Melee/Ranged Weapon applies to Ranged Attacks only.) \n* If at any time you Equip a Weapon that you would not be able to Equip with Gigas Grip (or otherwise), you must immediately end your current Actions and Abilities (if they are currently taking an Action or Ability). Then, Un-equip weapons so that your weapon selection is legal. (This might happen if you used an ability that flipped a 2-handed Melee weapon into a 2-handed Ranged weapon. Since you cannot have a 2-handed Ranged weapon equipped with any other weapon.)\n\n**Note to the community:** We've had a discussion amongst ourselves and wanted to reach out to the community about Gigas Grip solutions. We have a much more complex way of doing it, but felt that the above ruling covered all the bases. Our only concern is if it is abusable or too powerful. Please let us know. If we must, we can revert it back to choosing which weapon you attack with, but this fix is wordy and a bit more difficult to explain. \n "
+        },
+        {
+            "Description": "Icons, PG 31: The following rule has been appended to this section.\nIllegal Weapon Combinations: If at any time an Adventurer has weapons equipped that could not legally be equipped due to the Icon limitations listed above, that Adventurer must immediately end their current Actions and Abilities (if they are currently taking an Action or Ability) and Discard, or move Equipped weapons to their pack until their equipped weapons are legal. ",
+            "Component": "Rule Book",
+            "Severity": "Major"
+        },
+        {
+            "Description": "***Poppets:*** Rules for Poppet Combatant tokens specify that they are removed from the space when an Adventurer spends SP to make the check. They should specify that they are \"Defeated\" instead. Following all the rules already associated with being Defeated.",
+            "Component": "Rule Book",
+            "Severity": "Minor"
+        },
+        {
+            "Description": "***Dynamite tokens:*** These tokens should be Discarded when detonated. While usually played correctly, this needs to be appended to the Rule Book.",
+            "Component": "Rule Book",
+            "Severity": "Minor"
+        },
+        {
+            "Description": "\"Towards and Away\" is missing from the index",
+            "Component": "Rule Book",
+            "Severity": "Minor"
+        },
+        {
+            "Description": "Push and Pull should reference the Page location of Towards and Away.",
+            "Component": "Rule Book",
+            "Severity": "Minor"
+        },
+        {
+            "Description": "The “Bound Soul” difficulty tweak is meant to apply to adventurers with espers. This isn't clear enough. It should say:\n\"***Bound Soul:*** When an Adventurer who controls an Esper or their controlled Esper is defeated, the surviving figure takes a BLUE of IRREDUCIBLE DMG.\"",
+            "Component": "Rule Book",
+            "Severity": "Minor",
+            "Spoiler": "",
+            "Notes": "Yes. Its intended to work on the adventurer with the esper and their esper."
+        },
+        {
+            "Description": "***Towards & Away, PG 60:*** Towards & Away have been updated to note that when determining if a space is farther or closer, you follow the rules of movement. This way, it should be clear when a space is farther or closer.",
+            "Component": "Rule Book",
+            "Severity": "Minor"
+        },
+        {
+            "Description": "***Spirit Blade:*** There is a typo on Phantasmal Sword. An extra \"the\" plagues the card.",
+            "Component": "Combatant",
+            "Severity": "Minor"
+        },
+        {
+            "Description": "***Special Encounter Rules - Movable Rock:*** When this encounter rule references \"any unoccupied adjacent space.\" It is referencing spaces adjacent to the token itself. ",
+            "Component": "UM1 Adventure Book",
+            "Severity": "Minor"
+        },
+        {
+            "Description": "***Printed Combat Dice: ***Any card that references \"Printed\" Combat Dice should simply reference \"Equipped Combat Dice\". There is no intentional difference between the two. Meaning, Abilities like Finesse should always be taken into account when Abilities are written this way.",
+            "Component": "Disciplines, Items",
+            "Severity": "Minor",
+            "Spoiler": "",
+            "Notes": "This only affects Courage Stifle so far. "
+        },
+        {
+            "Description": "***If a Special Encounter Rule spawns a Combatant at the \"Start of a Round\" does that Combatant get shuffled into the Initiative Track or does it get placed at the front or back of the Initiative Track? ***\nThis is an oversight by our design team. Any time a Special Rule calls for Spawning a Combatant under these circumstances it should specify. Future printings will do so. For now, it's safe to assume that all Combatant's spawned in this fashion should be shuffled into the Initiative Track before it is dealt. ",
+            "Component": "UM1 Adventure Book",
+            "Severity": "Minor"
+        },
+        {
+            "Description": "In rare circumstances, some Command Cards have more than 1 option available when making Standard Attacks or Counters. To cover these cases, we've added a rule to the Combatant Card section that specifies that a player may choose any ATK Ability that cost 2 SP or less under circumstances where an Allied Combatant with more than one options gets a Free Attack or Counter. ",
+            "Component": "Rule Book",
+            "Severity": "Minor"
+        },
+        {
+            "Description": "Future Designs would benefit from the requirement of a new symbol used to denote when a non-Passive Ability printed on a card (any card) can be used outside of your turn. Specifically, a symbol with a rule that states \"This Ability has a Text Condition with special timing associated with it.\" \n\nThe current English printing does a fine enough job by clearly pointing out to players when they can use an Ability. Meaning, the Rule Book covering Ability timing is %100 correct. If the Ability doesn't say you can use it ***outside ***of your turn, (Or during a specific action) you can only use it ***during ***your turn. However, we've found during our translation process that English subtlety for timing doesn't always exist in the same ways. This means that it's going to help the product in the long run to include a symbol for Condition Tags (Timing specific to the text of an Ability). \n\nWhile we haven't committed to this %100, it's something we're looking into on future content and print runs. Existing customers should not mechanically be affected in any way. \n\nRegardless, we'd love feedback on this idea.",
+            "Component": "All Components",
+            "Severity": "Minor",
+            "Spoiler": "",
+            "Notes": "Link to Example of Symbol. \n\nIn this example you can see that the Exhaust option on the Hand Axe is meant to be used outside of your turn. It's obvious when read, and we intend to keep it written that way. However, the subtle timing doesn't always translate into other languages. Moreover, we've found that our design group prefers seeing at a glance what abilities have special timing in their text."
+        },
+        {
+            "Description": "***Relentless Tag: ***This Tag should be appended to specify that it ignores Heavy and Hulkling.",
+            "Component": "Rule Book",
+            "Severity": "Minor"
+        },
+        {
+            "Description": "***Zulfiqar: ***Phantasmal Sword should make it clear that the movement and Attack are each individual optional steps that are both dependent on the Dodge being successful.",
+            "Component": "Combatant",
+            "Severity": "Minor"
+        },
+        {
+            "Description": "Re-write Arcane to make it clear that it only affects symbols rolled on your combat dice. ",
+            "Component": "Rule Book",
+            "Severity": "Non-Issue",
+            "Spoiler": "",
+            "Notes": "This seems clear enough as written. If anyone has any suggestions, let me know. Otherwise, I'll leave this as it is."
+        },
+        {
+            "Description": "Update Pack cross references pages in other books. It probably should only concern itself.",
+            "Component": "Update Pack",
+            "Severity": "Non-Issue",
+            "Spoiler": "",
+            "Notes": "We don't foresee a reprint of the Update Pack occuring. However, if we do print it again, we'll make sure to include this fix. However, future update content will include this as a style guide."
+        },
+        {
+            "Description": "RAW the Water Loa will target the first ally or opponent with a status effect on the initiative track before anything else.",
+            "Component": "Combatant",
+            "Severity": "Non-Issue",
+            "Spoiler": "",
+            "Notes": "Perhaps most don't play this way, but even if they did, I don't think its an issue."
+        },
+        {
+            "Description": "***Elevation and how it interacts with Adjacency and Reach has been addressed: ***Figures on spaces next to each other that have an Elevation change of 1 or less are considered 'Adjacent\". Figures with Reach may target other figures at an Elevation change of X or less equal to Reach X. Meaning, a figure with Reach 2 could target a figure at an Elevation change of 2 or less. (Since they're making a Melee Attack at 2 spaces away.). Additionally, figures with Reach may target figures up to X spaces away minus the difference of the Elevations change. ***Example:*** A figure with Reach 2 could target a figure at two spaces away so long as the Elevation difference between them was only 1. For the purposes of Line of Sight, and unlike Ranged Attacks, a figure with Reach does ***not ***ignore other figures on Elevations lower than them.\n",
+            "Component": "Rule Book",
+            "Severity": "Minor"
+        },
+        {},
+        {
+            "Description": "## Chapter 4 - Can of Wurms, PG 272: We don't specify which Adventurer's you can and cannot use. The intent is that any Adventurer's narrativly present can be chosen. In practice this should be obivious to those listening to our story or using the Spark Notes. However, due to a myriad of story decisions \\ Performance Ramifications up until this point, the Adventurer's available could be any combination of the following. (Justice, Damocles, Padric, Suri, Rook, or Zeke.). This issue is extensive enough that the Special Rules will need to be appended to the encounter in both a Print and Play and in any future reprints. ",
+            "Component": "UM1 Adventure Book",
+            "Severity": "Critical",
+            "Spoiler": "yes",
+            "Notes": "I'm still working to determine the exact ruling for this. I'll have it prepared this weekend. "
+        },
+        {
+            "Description": "## Chapter 3 - Encounter: Through the Rubble, PG 206: The Hidden Text for \"Crazy Girl\" event should only trigger if you haven't already killed the Living Oblation.",
+            "Component": "UM1 Adventure Book",
+            "Severity": "Major",
+            "Spoiler": "yes"
+        },
+        {
+            "Description": "## Chapter 4 - Encounter: Critical Timing, PG 281: The Hidden Text for \"4 Time Tokens\" should have a caveat that if the Gatekeeper is not currently on the board, the 2 Animates spawn spawn on the west side of UM26.",
+            "Component": "UM1 Adventure Book",
+            "Severity": "Minor",
+            "Spoiler": "yes"
+        },
+        {
+            "Description": "## The Augmented Monocle: This card should use the Perception Symbol instead of saying the word \"Perception\".",
+            "Component": "Hidden Item",
+            "Severity": "Minor",
+            "Spoiler": "yes"
+        }
+    ],
+    "FAQ": [
+        {
+            "Description": "## How does Reach and Flanking Work? \nSo long as you're attacking an opponent while there is also another ally who is also within Melee Range of your target and on the opposite side or corner of that same target, you Gain the Flanking bonus. \n\nBelow are some diagrams to help explain this better:\n\n1. In this Diagram, Remi has Reach 2 and is within 2 spaces of the Animate. This means she is within Range to make a Melee Attack. If she does, she will Gain the Flanking bonus since Rook is also within Melee range of the Animate and also on the opposite side of the Animate.\n2. If both Rook and Remi had Reach 2, they could both get the Flanking bonus against the Animate so long as both figures were in Melee range and on opposite sides of the target. \n3. Even though Rook and Remi could still make an Attack at Reach 2, neither are attacking from opposite ends of the target. So, neither could gain the Flanking bonus since there is not a figure on opposite sides of the target. A way to visualize this is to draw an imaginary line between the center of each figure. If it is drawn through opposite corners of sides of the target, then you may Flank. The blue line here represents what that might look like. You can see that it does not draw through opposite sides of the target. Meanwhile, both Nightingale and Zeke could also Attack, but they would also not be considered Flanking.\n4. Remember, when determining if you can flank from a corner, another ally must be able to attack the same target from the opposite corner. In this case, both Zeke and Nightingale could now flank.\n5. You can even use Reach 2 to Flank targets diagonally. This gives you a ton of range!\n6. Keep in mind that Line of Sight is still taken into account. Friendly figures will impart a -1 to your ATK even when you use Reach. However, since you are still within Melee Range of the target, you still get your Flanking bonus. \n7. However, if an opponent was in your way, or your Line of Sight was blocked, you could not make an Attack, even with Reach. This means that other figures that would require you to be within Melee Range would also not be able to Flank.\n8. Flanking only requires that another ally on the opposite side of the target could also make a Melee Attack. This works the same with Large Based Combatants too. Reach simply expands your Melee Range. This means that the larger the base of the target you’re trying to flank, the more spots there are to flank from! \n9. Like the previous example, you can see that being on opposite sides of a target and within Melee Range is all it takes to flank! The blue line is again drawn here to show that both Remi and Rook are attacking from opposite sides. In the case of the larger figure, this has given them more room to work with as each side is bigger.\n10. This means that with larger bases, you can easily get more models into position. In this example, all four figures are in flanking positions! \n11. Remember to keep an eye out for more creative flanking positions!\n",
+            "Tag": "Abilities",
+            "Spoiler": "",
+            "Notes": "Link to Examples. (This will be visible on the website with this FAQ when uploaded in the future.)"
+        },
+        {
+            "Description": "## Does the Casting Dice upgrade you recieve from Courage Stifle apply to your Summoned Espers as well?\nYes.",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## How do Flintlocks interact with Gigas Grip? \n\nYou may have a Flintlock and another 2-handed (or 1-handed) Melee/Ranged Weapon equipped using Gigas Grip. Normally, in Middara, you cannot equip a weapon that doesn't share a Range Icon (***Example:*** Melee Icon, Ranged Icon, Melee/Ranged Icon) Gigas Grip is no exception to this rule. This means that you cannot have a Flintlock and another 2-handed Melee Weapon equipped. This is due to the fact that the Flintlock has the Ranged Icon. Additionally, Gigas Grip's rule specifically excludes 2-Handed Ranged weapons. Meaning, you cannot equip a 2-Handed Ranged Weapon with any other weapon. This means that the only option available to you would be equipping a Flintlock with a 2-handed Melee/Ranged Weapon.\n\nUnder these circumstances, the Flintlock has no conflicting rules and would work just fine with your load out. However, it wouldn't benefit from anything that specifically calls out 2-handed weapons as the Flintlock is still considered 1-handed. ",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## What about the Flip Ability that makes the Flintlock and its paired weapon a Melee Weapon?\nThis functions as any other weapon combination. So long as your equipment loadout is legal, nothing is amiss. Otherwise, you'd have to immediately un-equip until your loadout is legal. It's also possible to equip a 2-Handed Ranged Weapon and a Flintlock due to the fact that the Flintlock can make it a Melee Weapon while flipped. In this case, so long as you don't flip the Flintlock back, you could legally equip the Flintlock with another 2-Handed Ranged Weapon (a Bow for example.) using Gigas Grip since the 2-handed Ranged Weapon is considered a Melee Weapon while equipped with the Flintlock in it's flipped position. However, the Melee Symbol means that the paired weapon no longer has a Ranged Value. Thus, both the Flintlock and the paired 2-Handed Ranged Weapon (now made a 2-Handed Melee Weapon) couldn't make Attacks beyond Melee Range.  \n\nWhile there might be a valid build using a 2-Handed Ranged Weapon-made-melee, it seems more viable (and simpler) to combine the Flintlock with a 2-Handed Melee/Ranged Weapon. That way, regardless of what side you flipped it too you could have it equipped. \n\nFunctionally, Gigas Grip isn't required for the above ruling. This FAQ could also be made about equipping the Flintlock with another 1-handed Melee/Ranged Weapon. While you can equip it with either a 1-Handed Ranged or 1-Handed Melee, only one side of the Flintlock is compatible. Thus, you'd be Re-Equipping your weapons a lot as you'd end up with an illegal equipment loadout everytime you flipped the Flintlock. ",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## How does Push and Pull interact with Sinful Privilege?\nThe same as Pushing or Pulling would normally work. Meaning, you must still determine the closest and farthest space in relation to the Adventurer making the Attack that caused the Push orPull. This means that you can end up Pushing or Pulling figures from very far away. You could even find yourself pulling figures into your allies for extra damage.",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## How does Bring the Shadows interact with the Tome Ability to cast a spell again?\nYou can Cast the Spell again as listed on the card targeting the same figures the previous spell targeted. However, you could not MOVE again as you've already moved this round. ",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## If an Ability references equipped Combat Dice does it take into account Combat Dice earned from Finesse? (***Example:*** Swashbuckler's Garb)\nYes. Any time Combat Dice are referenced by an Ability, any Combat Dice that you have upgraded from Finesse are taken into account.",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## When choosing a die to re-roll using Kill the Messenger, can you choose to re-roll the BLACK?\nNo. There is no numeric highest or lowest value on the Black Die.",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## Does the Passive on Soul Steal count as \"Dealing Damage\" for the purposes of Abilities like To Faust?\nNo. \"Redistributing Damage\" does not count as \"Dealing Damage\".",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## When you summon a Loyal Esper, it gains Icons and Combat Dice on your adventure's current Icons and Combat Dice. (***Example:*** Combat Dice, Conviction Dice, Casting Die, Defense Value, and Max HP). But what happens to your Loyal Esper's Icons and Combat Dice if you take a Re-Equip Action that changes your Adventurer's total Icon Values or Combat Dice? \nA Loyal Esper will always use the base Icons plus the currently equipped items on the summoner at all times. This is the easiest way to keep track of these numbers without additional components. (***Example:*** Since Damage is counted up, you could re-equip an Item that raises your maximum HP and your Summon would gain that bonus in real time.)\n\nThis also means that if you made a change to your equipped Items that would bring your Loyal Esper's total HP below their current Damage, they'd be Defeated. \n\n",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## If an Ability references the printed Icon on a specific card type (like armor or HP) do you include bonuses to those Icons from Upgrades equipped on that Item?\nYes. However, any other bonuses Gained from other Items is not included unless specifically called out via something like Total Armor Value.",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## Does the Spellcasting Upgrade from Courage Stifle affect my Summons? \nYes. Any Upgrade from any type of card equipped by your Adventurer (Including Disciplines) is taken into consideration when determining Scaling Icons.",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## Can I re-roll a die that I already re-rolled?\nYes.",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## Can Whirlwind be used with Bring the Wrath?\nYes. However, Bring the Wrath requires that you end the current Action and all Abilities. Since Whirlwind is an Ability, you could use Bring the Wrath after defeating an opponent, but it would end any further Attacks that might be granted by Whirlwind.\n",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## Can you have an Item with 2 HEAVY tags on it?\nYes. If you upgrade a HEAVY Item so that it gains a second instance of HEAVY you will have two separate instances of HEAVY.\n",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## Can you use FU Abilities during a Counter?\nYes. Counter gives you an Attack. This Attack counts as a normal Attack for all rule purposes. However, it’s important to remember that you cannot use Abilities when it is not your turn unless the Ability specifically says otherwise. Symbol Abilities specify when they can be used and thus can always be used during a Counter. Disciplines on the other hand might or might not be able to be used depending on their Text Conditions.\n\n***Example 1: ***Since Quick Blow specifies that it can be used during the Follow Up step of your Attack, it can be used during a Counter that occurs on either your turn or another’s.\n(pic of Quick Blow.)",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## Do abilities that reflect damage work even if the attack being reflected caused me to become defeated?\nYes. Any Ability that occurs when damage is dealt happens before any figures are defeated.",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## Does Reach Increase the range of Break Attacks?\nNo. However, there is a new Ability since the original release of Middara (from 2018) called Provoke X. This Tag allows you to make Break Attacks at up to Range X.",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## Does the Relentless tag Ignore the Heavy or Hulking Tag?\nYes. The movement caused by figures with Relentless happens regardless of Heavy or Hulking.",
+            "Tag": "Abilities",
+            "Spoiler": "",
+            "Notes": "This should be added as Errata to the Relentless Tag."
+        },
+        {
+            "Description": "## If a spell has more than one target do I roll my casting dice multiple times to determine a force for each target?\nNo. Unless the ability specifically says to determine a force against each target separately, you should always determine the force of the spell once.\n\nThen, each target will make a separate conviction check against the same force value. Additionally, unless specified otherwise, each target who fails this Conviction Check will suffer the effects of a spell separately as well.\n",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## If an Ability says that it can be used on “Another ally” what does that mean exactly?\nWhen an Ability is intended to be used on any figure including yourself it will say “Any ally/figure/opponent”. When an Ability is intended to be used on any figure except yourself it will say “Another ally/figure/opponent”.\n",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## If I Counter a Break Attack during a Move Action, can I continue moving after resolving the Counter?\nNo. Making any Action during movement will end the Move Action.",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## If I use REACH to attack through an ally do I still get the -1 penalty as though it were a ranged Attack?\nYes.",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## Is the damage reduction from Resistances applied before or after Armor?\nAfter. Resistances and Immunities are applied when Calculating Final Damage.",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## Does Shayliss Arsen’s (Regal Princess Version) character’s ability stack with Murder Circus?\nYes. Yes. However, you only add a single purple die.",
+            "Tag": "Abilities"
+        },
+        {
+            "Description": "## Would a Combatant jump merely to get closer - I.e. To get as close as possible or set up an attack in NEXT round.\nRAW, a Combatant will only jump if they must to maximize and keep the offensive benefits of conditions for their current turn true. In other words, they will only jump a gap if it's required to make an attack, cast a spell, or gain a tangible benefit that turn. \n\nHowever, I'd add that if they would gain a significant advantage by jumping otherwise, or couldn't otherwise gain an advantage, they will also jump. When in doubt, ask yourself if you would make the jump as a dungeon master trying to murder your players. :p\n",
+            "Tag": "Combatants"
+        },
+        {
+            "Description": "## Do AI Conditions / Instructions that reference Range X also have to include Line of Sight?\nYes. Conditions that read as \"Range X\" would also by definition require LOS, since Ranged Attacks cannot be made without LOS.. This was clarified in the newest Rule Book. ",
+            "Tag": "Combatants"
+        },
+        {
+            "Description": "## If an AI is stuck, blocked, and completely incapable of completing an AI Step even if the Conditions are true. (Such as a Combatant with an Otherwise that sealed off in a different room.) What happens? \nIf a Combatant has no true AI Steps, or, if a Combatant has no viable options due to being trapped, stuck, or otherwise broken through player abuse or encounter mishaps, they will do nothing. However, if an Otherwise Step can still produce negative results for the players (using their current knowledge of the encounter) then they will still complete their Otherwise Step. ",
+            "Tag": "Combatants"
+        },
+        {
+            "Description": "## When performing a standard attack or a counter with a Loyal Esper or Allied Command Card, what happens when there are 2 different ATK Abilities that cost 2 sp on a Card? \nTypically there will only be one option. When there is more than one option, you may use any ATK Ability that costs 2 SP or less on the Command Card. ",
+            "Tag": "Combatants"
+        },
+        {
+            "Description": "## Can Large Based Figures move into spaces smaller than their base size?\nNo. Any movement made must be in non-obstructing spaces and on the board.",
+            "Tag": "Combatants"
+        },
+        {
+            "Description": "## Are Water Loas and Merk Hounds affected by Currents?\nNo. If a figure ignores Water Terrain, they also ignore Currents.",
+            "Tag": "Combatants"
+        },
+        {
+            "Description": "## Does the Merk Hound’s Ability “Sticky” apply to figures that are on different levels of Elevation?\nYes, so long as the Elevation difference is 1 or less. This is because figures on two spaces next to each other that are at an Elevation change of 1 or less are still considered Adjacent. In short, if you can make a Standard Melee Attack, you are also considered Adjacent. ",
+            "Tag": "Combatants"
+        },
+        {
+            "Description": "## Does the Merk Hound’s Sticky ability interrupt my movement?\nNo. Merk Hounds only prevent you from making a Move Action if you're adjacent to them. You can still move past them without ending your movement.",
+            "Tag": "Combatants"
+        },
+        {
+            "Description": "## If a Spell or Spell-Like Ability has more than one effect (or Ability) but only a single Force how many times do you check against the Force?\nJust once. (***Example:*** If an Ability said \"FU: Push 2 and Inflict Paralyze. Force 13.\" You would check against the Force Value once. If you failed the Conviction Check, you'd be pushed 2 ***and ***inflicted with Paralyze.",
+            "Tag": "Effects"
+        },
+        {
+            "Description": "## Do you still Gain SP when Paralyzed?\nYes. Paralyze only prevents a Paralyzed figure from making Actions or using Abilities. Other steps that happen during your turn still happen.",
+            "Tag": "Effects"
+        },
+        {
+            "Description": "## Can you be forced to make an Action or use an Ability while Paralyzed?\nNo. However, you may be Pushed, Pulled, or affected by Command so long as the source of that Ability is coming from another figure, (both allies and opponents). It's important to note that you ***cannot ***be given Free Movement or granted Actions of any kind under any circumstances.  ",
+            "Tag": "Effects"
+        },
+        {
+            "Description": "## If a figure is inflicted by Wilt do they take extra damage from being knocked into a wall?\nNo. The wall is dealing the Damage. Wilt only adds Damage to Attacks.",
+            "Tag": "Effects"
+        },
+        {
+            "Description": "## If I use a Vow Token to add extra damage until the end of my turn, do I add extra damage from knocking a figure into a wall?\nNo. The wall is dealing the damage.",
+            "Tag": "Effects"
+        },
+        {
+            "Description": "## When an encounter uses an \"Important Box\" to instruct us to keep the board setup, (except what it tells us to move). Do we still treat it like setting up a new encounter, in terms of healing and removing effect tokens from ourselves?\nThis is an oversight by our design team. Future printings (and content) should always specify how this mechanic interacts with our existing rules on starting a new encounter. In short, it's meant to be encounter specific. However, if not specified, it's safe to assume that you should go through the existing new encounter setup steps. Meaning, defeated figures re-spawn, etc. If there is no setup location, place newly spawned figures adjacent to an ally.\n",
+            "Tag": "Encounter Interactions",
+            "Spoiler": "",
+            "Notes": "This is both FAQ and Errata as some content in UM1 will need to be updated on a future print run. However, this update will adhere to the ruling here. Meaning, updates to the Adventure Book will simply follow all the existing rules for starting a new encounter. This way, mechanically there is no difference between the current version and future printings of UM1."
+        },
+        {
+            "Description": "## What happens when the party is instructed to Restore but a figure that was previously in the party is forced to leave before you are instructed to Restore?\nThis is an oversight by our design team. Future printings (and content) should always specify who Restores and who does not. However, if not specified, it's safe to assume that you should Restore every party member whether they are present or not.\n",
+            "Tag": "Encounter Interactions",
+            "Spoiler": "",
+            "Notes": "This is both FAQ and Errata as some content in UM1 will need to be updated on a future print run. However, this update will adhere to the ruling here. Meaning, updates to the Adventure Book will simply restore all Adventurer's in the party whether they are selectable or not. This way, mechanically there is no difference between the current version and future printings of UM1."
+        },
+        {
+            "Description": "## There are encounters and Story Rounds where the party is not instructed to Restore. Is this intentional? \nYes. Unless instructed to, you should never Restore. Thematically, restoring occurs when the party has down time. There are moments in our narratives where you might be able to purchase gear, make choices, or even embark on a side quest while not having the time to rest. ",
+            "Tag": "Encounter Interactions"
+        },
+        {
+            "Description": "## When choosing the Active Group can I also swap gear between Adventurers? \nThis is an oversight by our design team. Future printings (and content) should always specify who can swap gear and who cannot. However, if not specified, it's safe to assume that you can swap gear among characters who are both in the active party as well as in the current encounter. Thematically, it's intended that only characters who are narratively capable of swapping gear may do so. In the context of UM1 this should typically be very obvious.",
+            "Tag": "Encounter Interactions",
+            "Spoiler": "",
+            "Notes": "This is both FAQ and Errata as some content in UM1 will need to be updated on a future print run. However, this update will adhere to the ruling here. Meaning, updates to the Adventure Book will simply allow players to swap gear among characters who are both in the active party as well as in the current encounter. This way, mechanically there is no difference between the current version and future printings of UM1."
+        },
+        {
+            "Description": "## Does the Special Encounter Rule \"Low Ceiling\" prevent the use of Abilities that grant flight such as Wings Manifest?\nYes. You cannot use any Abilities that grant Flight with Low Ceiling. Thematically this is required as other Abilities might grant Flight that shouldn't work unless you can actually fly. This means that you cannot use Wings Manifest to grant the movement since it also grants Flight, (Thematically giving you the movement).",
+            "Tag": "Encounter Interactions"
+        },
+        {
+            "Description": "## When a Special Encounter Rule spawns a Combatant at the \"Start of a Round\", does that Combatant get shuffled into the Initiative Track or does it get placed at the front or back of the Initiative Track? \nThis is an oversight by our design team. Any time a Special Rule calls for Spawning a Combatant under these circumstances it should specify. Future printings will do so. For now, it's safe to assume that all Combatant's spawned in this fashion should be shuffled into the Initiative Track before it is dealt. ",
+            "Tag": "Encounter Interactions",
+            "Spoiler": "",
+            "Notes": "This is both FAQ and Errata as some content in UM1 will need to be updated on a future print run. However, this update will adhere to the ruling here. Meaning, updates to the Adventure Book will simply instruct players to shuffle combatants into the Initiative Track. This way, mechanically there is no difference between the current version and future printings of UM1."
+        },
+        {
+            "Description": "## When a reward states \"Each party member gains 1 XP,\" does that apply to all Adventurers, or just the active party?\nEach Party Member Gains the XP. (Unless otherwise stated of course.)",
+            "Tag": "General"
+        },
+        {
+            "Description": "## Do enemy figures block line of sight to Totems? Thus, preventing their Activation?\nYes and yes. You must be able to draw line of sight to a Totem from an Adventurer or Allied Combatant to reveal the Totem.",
+            "Tag": "General"
+        },
+        {
+            "Description": "## Do combatants that start on the table during round 1 count as spawning for the purposes of Urgency Tokens?\nYes.",
+            "Tag": "General"
+        },
+        {
+            "Description": "## Do \"Otherwise\" AI Steps count as True Conditions for the purposes of Urgency Tokens?\nYes.",
+            "Tag": "General"
+        },
+        {
+            "Description": "## Can you half or double damage twice?\nNo. A Combatant may only double or half the Damage from a single Attack or Spell action once per Action. If you can apply both, you must choose which modifier to apply. However, each Combatant may do this once per Action. Meaning, an Adventurer may double their Damage during an Attack and the target could still halve the doubled Damage with an Ability of their own.",
+            "Tag": "General"
+        },
+        {
+            "Description": "## Can a Combatant Heal or take more Damage than they have printed on their Combatant Card / Adventure Card?\nNo. A figure may never have more damage than it’s printed Total Health Value. Additionally, a figure may never heal more damage than they currently have dealt.",
+            "Tag": "General"
+        },
+        {
+            "Description": "## Do I round up or down?\nWhen players must round any number, they always round up to the nearest whole number.",
+            "Tag": "General"
+        },
+        {
+            "Description": "## How does AI determine who to Attack if the target's Initiative Card represents more than 1 figure?\nIf an AI is instructed to target a figure and that target shares an Initiative Card with one or more of its allies, you might find that the target is tied on the Initiative Track with other figures that could be valid targets. In these cases, an AI will target the figure(s) that share that Initiative Card starting with the lowest numbered figure that can be attacked.\n\n***Example:*** An AI is instructed to Attack a Cave Sickle (Rare, but possible). In this example, let's say that there is 3 Cave Sickles on the table who were all valid targets. Normally, you'd refer to the Initiative Track to determine who the target is. However, in this case, Cave Sickles are a Swarm and all share a single Initiative Card. (Cave Sickle 1-3). To determine which Cave Sickle the AI will Attack, start with the lowest Cave Sickle. In this case, Cave Sickle 1. ",
+            "Tag": "General"
+        },
+        {
+            "Description": "## What happens if a hidden or special rule references and requires a figure on the board that is no longer alive?\nIgnore the special rule or any of the flavor text. None of the events transpire as the figure has since passed away.",
+            "Tag": "General"
+        },
+        {
+            "Description": "## What happens if a Totem/Special Rule/Ability requires me to spawn or place a figure and there are no legal space available?\nAnytime a figure spawns and there are no legal space to place them according to the Spawn instructions, place them on the nearest legal non-Dangerous Terrain space. \n\nIf an Adventurer were to succumb to this via a strange concoction of abilities (Such as having their flight being canceled while they are currently occupying a space shared by another figure) they must place their figure on the nearest legal space they’ve already been in this turn. If for whatever crazy reason that isn't possible, they are placed on the nearest legal non-Dangerous Terrain space. ",
+            "Tag": "General"
+        },
+        {
+            "Description": "## What happens if a Totem/Special Rule/Ability requires me to spawn or place a figure on Dangerous Terrain?\nAnytime an AI, Special Rules, or something controlled by the game and not Adventurers instructs you to spawn a figure on Dangerous Terrain, place them on the nearest legal space that is not Dangerous Terrain. ",
+            "Tag": "General"
+        },
+        {
+            "Description": "## What happens if an Item combination I have equipped becomes illegal?\nIf at any time your equipment is not legal according to the rules, you must immediately end your current Actions and Abilities (if you are currently taking an Action or Ability). Then, Un-equip Items so that your Equipment selection is legal. ",
+            "Tag": "General"
+        },
+        {
+            "Description": "## What happens if I need to draw a Reward or Card and there are no more components left to draw?\nAs per our component limitations section of the Rule Book, you would not draw the Reward or Card. Thematically it’s an empty chest or the loot really didn’t drop.",
+            "Tag": "General"
+        },
+        {
+            "Description": "## What happens when two End Conditions happen at the same time?\nThis can happen as a combination of all types of End Conditions. Win Conditions, Lose Conditions, and Alternate End Conditions. If you want an easier experience, take the End Condition of your choice. Otherwise, take the Lose Condition.",
+            "Tag": "General"
+        },
+        {
+            "Description": "## When are Unique Items for sale and how do they interact with the rest of the Adventure?\nThematically, the Unique Item represents the random awesome gear for sale at the local store. (Or wherever you're purchasing gear during that Story Round.)\n\nTo represent this, you add 1 Unique Item during a Story Round (or however many Unique Items it says are for sale). If you purchase that Unique Item, you will not draw another Unique Item until the next (different) Story Round in the Adventure. So, if you return to the same Story Round and you’d already purchased the Unique Item that was for sale, then you will not have a Unique Item available to purchase. Alternatively, if you didn't purchase the Unique Item, if you return to that Story Round during the same Adventure, it would still be for sale. Lastly, if you don’t purchase the Unique Item and you end up drawing a Unique Item during a future Encounter you would not shuffle the Unique Item for sale as one of the options as it is still for sale back at the store.\n",
+            "Tag": "General"
+        },
+        {
+            "Description": "## When Pushing or Pulling a figure, how do you determine what space is closer or farther?\nTowards & Away have been updated to note that when determining if a space is farther or closer, you follow the rules of movement. This way, it should be clear when a space is farther or closer. If there are two options, Adventurers choose.",
+            "Tag": "Movement"
+        },
+        {
+            "Description": "## Do all types of Movement Provoke Break Attacks?\nYes. Unless otherwise stated, any and all kinds of Movement Provokes Break Attacks. Including, but not limited to, Jumping, Currents, Free Movement, Movement earned from Abilities, being Pushed, being Pulled, moved via Command, or Movement from the Move Action. \n\nIn short, Break Attacks trigger when a figure leaves any space adjacent to an opposing figure. ",
+            "Tag": "Movement"
+        },
+        {
+            "Description": "## If something would move me out of a space but I cannot move for whatever reason (There’s a wall in the way, my character reduced it to 0 with the Heavy Tag, etc) do adjacent opponents still get break attacks?\nNo.",
+            "Tag": "Movement"
+        },
+        {
+            "Description": "## When Jumping, do I have to count spaces out in a straight line?\nNo.\n\nJumping still follows normal movement rules, other than it ignores Effects from all Terrain other than Obstructing Terrain. This means that you can count out the spaces in any pattern you’d like before you decide to make the Jump Check.\n\n***Example:*** Both Jump Checks from A to B or from C to D would be legal.\n(Image currently on website)",
+            "Tag": "Movement"
+        },
+        {
+            "Description": "## Are Terrain tokens ever affected by the “current” rules?\nNo. Any Terrain Tokens added to the board will never have a current added to them and will not be moved by currents. Unless stated otherwise, Loot tokens, and Combatant Tokens are the only tokens affected by currents.",
+            "Tag": "Terrain"
+        },
+        {
+            "Description": "## Does a figure attacking another figure on lower Elevation ignore Hindering Terrain?\nNo. Figures Attacking another Figure at a lower Elevation ignore both Opponents and other Allies, but not Terrain.\n",
+            "Tag": "Terrain"
+        },
+        {
+            "Description": "## If a Combatant dies via Dangerous terrain do I still gain Combatant Loot?\nYes. Dangerous Terrain counts as Defeating an opponent. Does it make sense? No. But it's fun and we want to encourage you to feel like a bad-ass. We'll add variant rules that can be added to change this ruling for those who want a more 'realistic' feel to the game. :p",
+            "Tag": "Terrain"
+        },
+        {
+            "Description": "## If I share a space of Hindering Terrain with a Combatant Token, do attacks I make against that Combatant Token (assuming it's a Combatant Token that can be Attacked.) count as being made into hindering terrain?\nYes. In rare cases, you can Attack a Target that has rules that will allow it to occupy the same space as your Adventurer. In these cases, the target gains all the benefits and detriments that the Terrain provides.",
+            "Tag": "Terrain"
+        },
+        {
+            "Description": "## How examctly does Reach interact with Elevation?\n\nExamples\n1. Remi has Reach 2 and is on Elevation 2. The Animate does not have Reach and is below her on Elevation 1. Since the difference is 1 or less, they are both considered Adjacent. Additionally, they could both make Melee Attacks against each other.\n2. Since Remi has Reach 2 she can attack up to 2 spaces away so long as the difference in Elevation isn't greater than 1. Since it is not, she can make the attack here. However, neither figure is considered Adjacent.\n3. Remi has Reach 2 and is on Elevation 3. The Animate does not have Reach and is below her on Elevations 1. Since the difference is 2, Remi is glad to have Reach 2, which allows her to make a Melee Attack. Meanwhile, the Animate is in trouble and could not Attack back. This also means that it could not Counter. Additionally, neithern figure could make Break Attacks since neither figure is considered Adjacent to each other and Reach does not expand Remi's Range for Break Attacks. (Provoke 2 would.)  \n4. Even though Remi has Reach 2, she cannot Attack the Animate at one space away. The difference in Elevation is 2 and the Animate is 1 space further away. To make this Melee Attack, Remi would need Reach 3 or use a Ranged Attack or Spell.",
+            "Tag": "Terrain",
+            "Spoiler": "",
+            "Notes": "Link to Examples\n\n(This will be visible on the website with this FAQ when uploaded in the future.)"
+        },
+        {},
+        {
+            "Description": "## Aisling Boss Fight: Can Nightingale still use Crazed Protector to prevent Aisling from Gaining a Status Effect that she already has?\nYes, she can. Nightingale can still use her Passive Ability to take the Damage/Effect and be targeted. But if she is already inflicted by the Status Effect in question, then the portion of the Attack or Spell that would inflict the Status Effect wouldn't do anything.",
+            "Tag": "UM1-Encounters",
+            "Spoiler": "yes"
+        }
+    ]
+}
