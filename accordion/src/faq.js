@@ -123,45 +123,24 @@ export const FaqAccordion = createClass({
 				))}
 			</div>
 		)
-		const chapterMenu = (this.state.activeMenu === 'FAQ' ? (
-					<div className="accordion-chapter-menu">
-						{this.state.tags.map(i => (
-							<div 
-							className={`
-							accordion-chapter-menu-btn 
-							${this.state.displayMenu === i ? 
-								"accordion-chapter-menu-btn--active" : "" }
-								`}
-							onClick={this.handleChapterClick.bind(null, i)}
-							
-							>
+		const chapterMenu = (
+				<div className="accordion-chapter-menu">
+					{this.state.activeHeaders.map(i => (
+						this.state.displayMenu != i ? "" : 
+							<div
+								className='accordion-chapter-menu-btn'
+								onClick={this.handleChapterClick.bind(null, i)}
+								>
 								<span>
-									{i}
+								{i}
 								</span>
-							</div>
-						))}
-					</div>
-				) : (
-					<div className="accordion-chapter-menu">
-						{this.state.components.map(i => (
-							<div 
-							className={`
-							accordion-chapter-menu-btn 
-							${this.state.displayMenu === i ? 
-								"accordion-chapter-menu-btn--active" : "" }
-								`}
-							onClick={this.handleChapterClick.bind(null, i)}
-							
-							>
-								<span>
-									{i}
-								</span>
-							</div>
-						))}
-					</div>
-				)
-			
+							</div>	
+						
+						))} 
+						</div>
+				
 		)
+			
 		const filterList = filter(this.state.activeHeaders, this.state.displayMenu, this.handleFilterChange)
 
 
