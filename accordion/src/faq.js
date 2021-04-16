@@ -249,9 +249,6 @@ function filter(list, def, callback) {
 					{
 						list.map(i => (<option value={i}>{i}</option>))
 					}
-					{/* <option value="Orange">Orange</option>
-					<option value="Radish">Radish</option>
-					<option value="Cherry">Cherry</option> */}
 				</select>
 				<p>This is a filter.</p>
 			</div> 
