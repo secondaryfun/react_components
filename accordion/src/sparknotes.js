@@ -4,14 +4,15 @@ import Parse from 'html-react-parser'
 import TextInput from 'react-autocomplete-input'
 import 'react-autocomplete-input/dist/bundle.css'
 
-
+function cleanup (word) {
+	return word.toLowerCase().replace(/[^a-zA-Z0-9]+/g, "");
+ }
 
 export const Sparknotes = createClass({
 
-	componentWillMount() {
+	UNSAFE_componentWillMount() {
 		let accordion = [];
         let sparknotes = this.props.data
-		console.log(sparknotes)
 		let chapterList = []
 		let searchTerms = []
 
@@ -39,7 +40,6 @@ export const Sparknotes = createClass({
 			displayChapter: 1,
 			chapterList: chapterList,
 			searchTerms: searchTerms,
-			options: ["apple", "apricot", "banana", "carror"],
 			activeSelection: null,
 			searchValue: ""
 		});
@@ -66,10 +66,7 @@ export const Sparknotes = createClass({
 
 	handleSelectOption(selection) {
 		selection = selection.slice(0,-1)
-		console.log(selection)
-		console.log(this.state.accordionItems[0].title.type === selection.type)
-		const selectedItem = !this.state.accordionItems.find(o => o.title === selection) ? "not found" : this.state.accordionItems.find(o => o.title.toUpperCase() === selection) 
-		console.log(selectedItem)
+		const selectedItem = !this.state.accordionItems.find(o => cleanup(o.title) === cleanup(selection)) ? "not found" : this.state.accordionItems.find(o => cleanup(o.title.toUpperCase()) === cleanup(selection)) 
 		this.setState({
 			activeSelection:selectedItem,
 			displayChapter: null,
@@ -83,6 +80,7 @@ export const Sparknotes = createClass({
 				<div className="accordion-chapter-menu">
 					{this.state.chapterList.map(i => (
 						<div 
+						key={this.state.chapterList.indexOf(i)}
 						className={`
 						accordion-chapter-menu-btn 
 						${this.state.displayChapter === i ? 
@@ -132,7 +130,6 @@ export const Sparknotes = createClass({
 			</div>
 			: this.state.accordionItems.map((i) => {
 				const chapter = parseInt(i.chapter)
-				const subchapter = parseInt(i.subchapter)
 				
 				return chapter === this.state.displayChapter ? (
 					<div key={this.state.accordionItems.indexOf(i)}>
@@ -175,7 +172,7 @@ export const Sparknotes = createClass({
 					trigger=""
 					Component="input"
 					onSelect={this.handleSelectOption}
-					matchAny="true"
+					matchAny={true}					
 					value={this.state.searchValue}
 				/>
 				{chapterMenu}

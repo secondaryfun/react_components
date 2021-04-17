@@ -18,7 +18,7 @@ const App = createClass({
 		return (
 			<div>
 				Test this out.
-				{/* <FaqAccordion data={faqData} /> */}
+				<FaqAccordion data={faqData} />
 				<Sparknotes data={sparkNotes} />
 			</div>
 		);
