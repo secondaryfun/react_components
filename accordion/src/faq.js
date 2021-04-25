@@ -23,36 +23,32 @@ export const FaqAccordion = createClass({
 		let errata = this.props.data.Errata
 		let faq = this.props.data.FAQ
 		faq.forEach((i) => {
-			if(i.Description) {
-				tags.push(!i.Tag ? "" : i.Tag)
-				faqAccordion.push({
-					type: 'faq',
-					title: !i.Description ? "" : i.Description.split('\n')[0].substring(3),
-					content: !i.Description ? "" : i.Description,
-					tag: !i.Tag ? "" : i.Tag,
-					spoiler: !i.Spoiler ? null : i.Spoiler,
-					severity: null,
-					open: false
-					
-				});
-			}
+			tags.push(i.Type)
+			faqAccordion.push({
+				tag: i.Type,
+				title: i.Title,
+				content: i["Formatted FAQ"],
+				spoiler: !i.Spoiler ? null : i.Spoiler,
+				severity: null,
+				open: false
+			});
+			
 		})
 		errata.forEach((i) => {
-			if(i.Description) {
-				components.push(!i.Component ? "" : i.Component)
-				errataAccordion.push({
-					type: 'errata',
-					title: !i.Description ? "" : i.Description.slice(0,25),
-					content: !i.Description ? "" : i.Description,
-					component: !i.Component ? "" : i.Component,
-					severity: !i.Severity ? "" : i.Severity,
-					spoiler: !i.Spoiler ? null : i.Spoiler,
-					open: false
-					
-				});
-			}
+			components.push(i["Component Affected"])
+			errataAccordion.push({
+				title: i.Title,
+				content: i["Formatted Errata"],
+				component: i["Component Affected"],
+				severity: i["Severity of Issue"],
+				spoiler: !i.Spoiler ? null : i.Spoiler,
+				open: false
+				
+			});
+			
 		})
-		
+		console.log(faqAccordion)
+		console.log(errataAccordion)
 		const tagSet = new Set(tags)
 		tags = [...tagSet]
 		const sevSet = new Set(components)
